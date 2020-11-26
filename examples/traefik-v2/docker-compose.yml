@@ -106,7 +106,6 @@ services:
             - XMPP_MUC_DOMAIN
             - XMPP_RECORDER_DOMAIN
         networks:
-          proxy: # Traefik network
           jitsi:
             aliases:
               - ${XMPP_DOMAIN}
